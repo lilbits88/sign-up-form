@@ -1,0 +1,20 @@
+body{
+  display: flex;
+  flex-grow: 1;
+}
+.img-container {
+  height: 100%;
+  width: 40%;
+}
+
+.img-container img {
+  width: 100%; /* Ensures the image spans the width of the container */
+  height: 100vh; /* Ensures the image fills the container */
+  object-fit: cover; /* Keeps the image proportionate and prevents distortion */
+}
+
+main {
+  width: 50%;
+}
+
+
