@@ -4,21 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✍️</text></svg>">
   <title>Sign In Form</title>
 </head>
 <body>
   <div class="img-container">
+    <div class="cafe-title">brew house coffee</div>
     <img src="images/cafe.jpg" alt="cafe">
   </div>
   <main>
   <header>
-    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
-
-      You know you want to.</p>
+    <p>Something amazing is brewing! Our new coffee shop is opening soon,
+       and we’d love for you to be a part of it. Sign up now to stay in the
+        loop for exclusive updates, special offers, and a sneak peek of 
+        what’s coming to your new favorite spot!</p>
   </header>
-  <form action=""></form>
+  <form action="">
+    <div class="inputs">
+    <label for="first-name">First Name</label>
+    <input type="text" name="first-name" id="first-name">
+    </div>
+    <div class="inputs">
+    <label for="last-name">Last Name</label>
+    <input type="text" name="last-name" id="last-name">
+    </div>
+    <div class="inputs">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    </div>
+    <div class="inputs">
+    <label for="phone-number">Phone Number</label>
+    <input type="number" name="phone-number" id="phone-number">
+    </div>
+    <div class="inputs">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+    </div>
+
+  </form>
   <footer>
     <button>Create Account</button>
     <p>Already have an account? <a href="">Log In</a></p>
