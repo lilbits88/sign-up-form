@@ -17,39 +17,36 @@
     <img src="images/cafe.jpg" alt="cafe">
   </div>
   <main>
-  <header>
-    <p>Something amazing is brewing! Our new coffee shop is opening soon,
-       and we’d love for you to be a part of it. Sign up now to stay in the
-        loop for exclusive updates, special offers, and a sneak peek of 
-        what’s coming to your new favorite spot!</p>
-  </header>
-  <form action="">
-    <div class="inputs">
-    <label for="first-name">First Name</label>
-    <input type="text" name="first-name" id="first-name">
+    <div class="intro">
+    <p>Our new coffee shop is opening soon, and we’d love for you to be 
+        a part of it. Sign up now to stay in the
+        loop to see what's brewing at your new favorite spot!</p>
     </div>
-    <div class="inputs">
-    <label for="last-name">Last Name</label>
-    <input type="text" name="last-name" id="last-name">
+    <div class="form-container">
+      <h2>Let's do this!</h2>
+      <form action="" method="post">
+        <div class="input-col">
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+        </div>
+        <div class="input-col">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name">
+          <label for="phone-number">Phone Number</label>
+          <input type="number" name="phone-number" id="phone-number">
+          <label for="confirm">Confirm Password</label>
+          <input type="password" name="confirm" id="confirm">
+        </div>
+      </form>
     </div>
-    <div class="inputs">
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-    </div>
-    <div class="inputs">
-    <label for="phone-number">Phone Number</label>
-    <input type="number" name="phone-number" id="phone-number">
-    </div>
-    <div class="inputs">
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password">
-    </div>
-
-  </form>
-  <footer>
+  <div class="log-in">
     <button>Create Account</button>
     <p>Already have an account? <a href="">Log In</a></p>
-  </footer>
-  </main>
+  </div>
+</main>
 </body>
 </html>
